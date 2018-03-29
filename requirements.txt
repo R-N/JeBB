@@ -1,0 +1,16 @@
+line-bot-sdk
+psycopg2
+pyimgur
+requests
+pillow
+fake_useragent
+pyasn1
+six
+stompy
+thrift
+future
+rsa
+requests
+simplejson
+wsgiref
+pygcrypt
