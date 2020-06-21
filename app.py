@@ -47,6 +47,7 @@ from commands.lunapic import lunaPicCmd
 from commands.werewolf import werewolfCmd
 from commands.twentyfour import twentyFourCmd
 from commands.twentyfour2 import twentyFour2Cmd
+from commands.byksw import bykswCmd
 from traceback import format_exc
 from argparse import ArgumentParser
 
@@ -228,6 +229,8 @@ client.AddCommand(twentyFourCmd)
 client.AddCommand(twentyFourCmd, name="24")
 client.AddContinuousTextCommand(twentyFourCmd)
 #client.AddCommand(werewolfCmd)
+
+client.AddCommand(bykswCmd)
 
 
 def application(environ, start_response):
