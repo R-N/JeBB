@@ -6,11 +6,9 @@ pillow
 fake_useragent
 pyasn1
 six
-stompy
 thrift
 future
 rsa
 requests
 simplejson
-wsgiref
 pygcrypt
